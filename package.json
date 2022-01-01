@@ -3,14 +3,25 @@
   "version": "1.0.0",
   "description": "Handler for local JSON (NoSQL) Databases with data sending, receiving, updating, deleting, and even with extra \".on\" events!",
   "main": "./src/index.js",
-  "repository": "https://github.com/TheCodeHeist/json-db.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCodeHeist/json-db.git"
+  },
   "author": "Md. Riyasat Hossain <riyasat.hossain.29@gmail.com>",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "events": "^3.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^8.4.1"
-  }
+    "eslint": "^8.4.1",
+    "node": "^16.13.1",
+    "esm": "^3.2.25"
+  },
+  "bugs": {
+    "url": "https://github.com/TheCodeHeist/json-db/issues"
+  },
+  "homepage": "https://github.com/TheCodeHeist/json-db#readme",
+  "scripts": {
+    "dev": "node -r esm ./example/app.js"
+  },
+  "keywords": []
 }
