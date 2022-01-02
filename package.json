@@ -1,5 +1,5 @@
 {
-  "name": "json-db",
+  "name": "node-nosql-db",
   "version": "1.0.0",
   "description": "Handler for local JSON (NoSQL) Databases with data sending, receiving, updating, deleting, and even with extra \".on\" events!",
   "main": "./src/index.js",
@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/TheCodeHeist/json-db.git"
   },
-  "author": "Md. Riyasat Hossain <riyasat.hossain.29@gmail.com>",
+  "author": "thecodeheist <riyasat.hossain.29@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {},
@@ -23,5 +23,12 @@
   "scripts": {
     "dev": "node -r esm ./example/app.js"
   },
-  "keywords": []
+  "keywords": [
+    "json",
+    "database",
+    "nosql",
+    "json-db",
+    "crud",
+    "db"
+  ]
 }

@@ -47,12 +47,13 @@ class JSON_DB extends EventEmitter {
   delete(id) {
     // Check if id exists
     if (this.snapshot[id]) {
+      const prevData = this.snapshot;
       const dataDeleted = this.snapshot[id];
       delete this.snapshot[id];
 
       fs.writeFileSync(this.dbFilePath, JSON.stringify(this.snapshot));
 
-      this.emit("delete", this.snapshot, id, dataDeleted);
+      this.emit("delete", this.snapshot, prevData, id, dataDeleted);
     } else {
       throw new Error(`ID not found: ${id}\nMake sure that ID exists.`);
     }
@@ -61,12 +62,12 @@ class JSON_DB extends EventEmitter {
   put(id, data) {
     // Check if id exists
     if (this.snapshot[id]) {
-      const prevData = this.snapshot[id];
+      const prevData = this.snapshot;
       this.snapshot[id] = { ...this.snapshot[id], ...data };
 
       fs.writeFileSync(this.dbFilePath, JSON.stringify(this.snapshot));
 
-      this.emit("update", this.snapshot, id, prevData, dataUpdated);
+      this.emit("update", this.snapshot, prevData, id, data);
     } else {
       throw new Error(
         `ID not found: ${id}\nTry using post() method to add that ID with data instead.`
