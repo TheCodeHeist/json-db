@@ -2,6 +2,10 @@
 
 [![NPM](https://nodei.co/npm/node-nosql-db.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-nosql-db/)
 
+[![npm (tag)](https://img.shields.io/npm/v/node-nosql-db/latest?color=%23dd0000&label=node-nosql-db%40latest)](https://npmjs.org/package/node-nosql-db)
+[![GitHub](https://img.shields.io/github/license/TheCodeHeist/json-db)](https://github.com/TheCodeHeist/json-db)
+
+
 Handler for local JSON (NoSQL) Databases with data sending, receiving, updating, deleting, and even with extra ".on" events!
 
 ---

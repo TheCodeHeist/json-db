@@ -1,6 +1,6 @@
 {
   "name": "node-nosql-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handler for local JSON (NoSQL) Databases with data sending, receiving, updating, deleting, and even with extra \".on\" events!",
   "main": "./src/index.js",
   "repository": {
