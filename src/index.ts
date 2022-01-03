@@ -3,7 +3,10 @@ import fs from "fs";
 import EventEmitter from "events";
 
 class JSON_DB extends EventEmitter {
-  constructor(dbFilePath) {
+  dbFilePath: string;
+  snapshot: JSON;
+
+  constructor(dbFilePath: string) {
     super();
 
     this.dbFilePath = dbFilePath;
@@ -11,15 +14,15 @@ class JSON_DB extends EventEmitter {
   }
 
   loadDB() {
-    let dbData;
+    let dbData: JSON;
 
     if (fs.existsSync(this.dbFilePath)) {
       // Check if the file is completely empty
-      if (fs.readFileSync(this.dbFilePath).toString() === "") {
+      if (fs.readFileSync(this.dbFilePath, "utf-8") === "") {
         fs.writeFileSync(this.dbFilePath, "{}");
       }
 
-      dbData = JSON.parse(fs.readFileSync(this.dbFilePath));
+      dbData = JSON.parse(fs.readFileSync(this.dbFilePath, "utf8"));
 
       // console.log(dbData)
     } else {
@@ -29,7 +32,7 @@ class JSON_DB extends EventEmitter {
     return dbData;
   }
 
-  post(id, data) {
+  post(id: string, data: any) {
     // Check if id exists
     if (this.snapshot[id]) {
       throw new Error(
@@ -44,7 +47,7 @@ class JSON_DB extends EventEmitter {
     }
   }
 
-  delete(id) {
+  delete(id: string) {
     // Check if id exists
     if (this.snapshot[id]) {
       const prevData = this.snapshot;
@@ -59,7 +62,7 @@ class JSON_DB extends EventEmitter {
     }
   }
 
-  put(id, data) {
+  put(id: string, data: any) {
     // Check if id exists
     if (this.snapshot[id]) {
       const prevData = this.snapshot;
@@ -75,7 +78,7 @@ class JSON_DB extends EventEmitter {
     }
   }
 
-  get(id) {
+  get(id: string) {
     // Check if id exists
     if (this.snapshot[id]) {
       return this.snapshot[id];
