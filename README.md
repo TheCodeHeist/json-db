@@ -1,12 +1,35 @@
 # **node-nosql-db**
 
-[![NPM](https://nodei.co/npm/node-nosql-db.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-nosql-db/)
+<!-- [![NPM](https://nodei.co/npm/node-nosql-db.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-nosql-db) -->
 
-[![npm (tag)](https://img.shields.io/npm/v/node-nosql-db/latest?color=%23dd0000&label=node-nosql-db%40latest)](https://npmjs.org/package/node-nosql-db)
-[![GitHub](https://img.shields.io/github/license/TheCodeHeist/json-db)](https://github.com/TheCodeHeist/json-db)
+<a href="https://www.npmjs.com/package/node-nosql-db" style="width: 100%; display: flex; align-items: center; justify-content: center">
+  <img src="https://nodei.co/npm/node-nosql-db.png?downloads=true&downloadRank=true&stars=true" alt="NPM" />
+</a>
 
+<div style="width: 100%; height: 4rem; display: flex; align-items: center; justify-content: center">
+  <a href="https://www.npmjs.com/package/node-nosql-db" style="margin: 0 .5rem">
+    <img src="https://img.shields.io/npm/v/node-nosql-db/latest?color=%23dd0000&label=node-nosql-db%40latest" style="width: 15.5rem" alt="npm (tag)" />
+  </a>
+  <a href="https://github.com/TheCodeHeist/json-db" style="margin: 0 .5rem">
+    <img src="https://img.shields.io/github/license/TheCodeHeist/json-db" style="width: 7rem" alt="GitHub" />
+  </a>
+</div>
 
 Handler for local JSON (NoSQL) Databases with data sending, receiving, updating, deleting, and even with extra ".on" events!
+
+---
+
+## 📥 **Installation**
+
+Make sure you have the latest version of [Node.js](https://nodejs.org/en/download/) and then install the package either with [NPM](https://www.npmjs.com/) or with [YarnPKG](https://yarnpkg.com/).
+
+```bash
+$ npm i node-nosql-db@latest
+```
+
+```bash
+$ yarn add node-nosql-db@latest
+```
 
 ---
 

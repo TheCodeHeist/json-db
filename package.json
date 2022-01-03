@@ -1,6 +1,6 @@
 {
   "name": "node-nosql-db",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Handler for local JSON (NoSQL) Databases with data sending, receiving, updating, deleting, and even with extra \".on\" events!",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/TheCodeHeist/json-db#readme",
   "scripts": {
-    "dev": "node -r esm ./example/app.js",
     "build": "rm ./lib/* && tsc"
   },
   "keywords": [
