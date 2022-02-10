@@ -456,10 +456,10 @@ node-bin-setup@^1.0.0:
   resolved "https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz"
   integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
 
-node@^17.3.0:
-  version "17.3.0"
-  resolved "https://registry.yarnpkg.com/node/-/node-17.3.0.tgz#7585d700f3c3ad098b64518b3ffa2115ffe81cda"
-  integrity sha512-Qftg93Mt+OkF0zmCELRFtBvpC7tian7sNg+I1vE97Mn6wV5gPj+jsii0B1K3NNqYgJac8Em50QZMbU8p/M9mCQ==
+node@^17.4.0:
+  version "17.4.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-17.4.0.tgz#946f480c8bc08720cfdb3f6681b8f8c913a6c8e0"
+  integrity sha512-/kPlbyQjDJa9NEOPmKSTmHOxgq+7wAMWNdU+8B9cXseQXTaF3xYAiYc9dCh3fDUxnrLR/DIqiYEQ85ICqSya8A==
   dependencies:
     node-bin-setup "^1.0.0"
 
