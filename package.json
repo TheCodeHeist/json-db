@@ -15,10 +15,10 @@
     "bcryptjs": "^2.4.3"
   },
   "devDependencies": {
-    "@types/node": "^17.0.16",
+    "@types/node": "^18.6.2",
     "eslint": "^8.6.0",
     "esm": "^3.2.25",
-    "node": "^17.3.0",
+    "node": "^18.7.0",
     "typescript": "^4.5.4"
   },
   "bugs": {

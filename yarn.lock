@@ -31,10 +31,10 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@types/node@^17.0.16":
-  version "17.0.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.16.tgz#e3733f46797b9df9e853ca9f719c8a6f7b84cd26"
-  integrity sha512-ydLaGVfQOQ6hI1xK2A5nVh8bl0OGoIfYMxPWHqqYe9bTkWCfqiVvZoh2I/QF2sNSkZzZyROBoTefIEI+PB6iIA==
+"@types/node@^18.6.2":
+  version "18.6.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.6.2.tgz#ffc5f0f099d27887c8d9067b54e55090fcd54126"
+  integrity sha512-KcfkBq9H4PI6Vpu5B/KoPeuVDAbmi+2mDBqGPGUgoL7yXQtcWGu2vJWmmRkneWK3Rh0nIAX192Aa87AqKHYChQ==
 
 acorn-jsx@^5.3.1:
   version "5.3.2"
@@ -456,10 +456,10 @@ node-bin-setup@^1.0.0:
   resolved "https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz"
   integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
 
-node@^17.3.0:
-  version "17.3.0"
-  resolved "https://registry.yarnpkg.com/node/-/node-17.3.0.tgz#7585d700f3c3ad098b64518b3ffa2115ffe81cda"
-  integrity sha512-Qftg93Mt+OkF0zmCELRFtBvpC7tian7sNg+I1vE97Mn6wV5gPj+jsii0B1K3NNqYgJac8Em50QZMbU8p/M9mCQ==
+node@^18.7.0:
+  version "18.7.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-18.7.0.tgz#7b1b5204485285c15703264b469920ef658f62e4"
+  integrity sha512-h5wBtW3jnRfJzAfKldQ3lp9V8EOmbS9EHg00nUlUWWVeMtX8NGyaYB3L+AnPAGNjgWSPPDHcsqJAwlysyGiZ0g==
   dependencies:
     node-bin-setup "^1.0.0"
 
